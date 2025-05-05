@@ -1,0 +1,13 @@
+POST http://127.0.0.1:5089/~/in-cse
+Headers:
+  X-M2M-Origin: admin:admin
+  Content-Type: application/json;ty=2
+
+Body:
+{
+  "m2m:ae": {
+    "rn": "fall_sensor",
+    "api": "app-sensor",
+    "rr": true
+  }
+}
